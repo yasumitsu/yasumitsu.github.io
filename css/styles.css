@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "love letter";
+  src: url('../fonts/lovelt.ttf') format('truetype'),
+       url('../fonts/lovelt-webfont.woff') format('woff');
+}
+/*
+    font-family: 'Merriweather', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Rock Salt', cursive;
+*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "love letter"
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Rock Salt"
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
