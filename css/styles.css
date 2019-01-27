@@ -11,28 +11,74 @@
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Architects Daughter', cursive;
     font-family: 'Rock Salt', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 */
 body {
   margin: 0;
   text-align: center;
-  font-family: "love letter"
+  font-family: "love letter", serif;
+  color: #01161E;
+  background-color: #AEC3B0;
 }
 
 h1 {
-  margin-top: 0;
-  font-family: "Rock Salt"
+  font-size: 5.624rem;
+  margin: 2.6rem auto 0 auto;
+  font-family: "Architects Daughter", cursive;
+  color: #598392;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #598392;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #124559;
+}
+
+p {
+  line-height: 2
+}
+
+hr {
+  border: dotted #EFF6E0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 10% auto;
+}
+
+a {
+  color: #124559;
+  font-family: "Roboto";
+  margin: 1% 2%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AEC3B0
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #EFF6E0;
   position: relative;
-  padding-top: 100px;
+  padding-top: 2.6rem;
 }
 
 .middle-container {
+  background-color: #AEC3B0;
+  margin: 3% 0
 }
 
 .bottom-container {
+  background-color: #598392;
+  padding: 3% 0 1%;
 }
 
 .pro {
@@ -41,12 +87,82 @@ h1 {
 
 .cloud1 {
   position: absolute;
-  right: 300px;
-  top: 50px
+  right: 25%;
+  top: 5%
 }
 
 .cloud2 {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 25%;
+  bottom: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 4rem auto 4rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-pic {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding-top: 5%
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.frontend-img {
+  width: 25%;
+  float: left;
+  margin-right: 5%
+  }
+
+.backend-img {
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 2% auto 3%;
+}
+
+.copyright {
+  color: #AEC3B0;
+  font-size: 0.75rem;
+  padding: 1% 0;
+}
+
+
+.butn {
+  background: #598392;
+  background-image: -webkit-linear-gradient(top, #598392, #124559);
+  background-image: -moz-linear-gradient(top, #598392, #124559);
+  background-image: -ms-linear-gradient(top, #598392, #124559);
+  background-image: -o-linear-gradient(top, #598392, #124559);
+  background-image: linear-gradient(to bottom, #598392, #124559);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Roboto;
+  color: #EFF6E0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #AEC3B0;
+  background-image: -webkit-linear-gradient(top, #124559, #598392);
+  background-image: -moz-linear-gradient(top, #124559, #598392);
+  background-image: -ms-linear-gradient(top, #124559, #598392);
+  background-image: -o-linear-gradient(top, #124559, #598392);
+  background-image: linear-gradient(to bottom, #124559, #598392);
+  text-decoration: none;
 }
