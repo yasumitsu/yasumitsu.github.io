@@ -1,3 +1,2 @@
-[yasumitsu.github.io](https://yasumitsu.github.io/)
-##My projects
-[quote-generator](https://yasumitsu.github.io/quote-generator/)
+I am a self taugh programmer. <br>
+You can see my projects at https://yasumitsu.github.io/.
