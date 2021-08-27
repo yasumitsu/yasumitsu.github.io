@@ -1,3 +1,4 @@
+const errorMessage = document.getElementById('error');
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -6,7 +7,8 @@ let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
 
-const count = 5;
+// Unsplash API
+const count = 10;
 const apiKey = 'V2Ik6uLXIEFhC6Hx-dQosjC6KKgYmHdWRmiuNX46MmA';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
