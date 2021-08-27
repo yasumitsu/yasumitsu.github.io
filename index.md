@@ -7,6 +7,6 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 
 ### My projects
 
-[quote-generator](./quote-generator/) <button class="fork">View on github</button>
+[quote-generator](./quote-generator/)
 
-[yelp-camp](https://stark-springs-41502.herokuapp.com/) <btn class="fork">View on github</btn>
+[yelp-camp](https://stark-springs-41502.herokuapp.com/) 
