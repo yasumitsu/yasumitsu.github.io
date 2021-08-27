@@ -1,5 +1,6 @@
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
+const errorMessage = document.getElementById('error');
 
 let ready = false;
 let imagesLoaded = 0;
@@ -58,17 +59,18 @@ async function getPhotos() {
 	try {
 		const response = await fetch(apiUrl);
 		photosArray = await response.json();
+		window.addEventListener('scroll', () => {
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
+				getPhotos();
+				console.log('load more');
+			}
+		});
 		displayPhotos();
 	} catch (error) {
 		console.log(error);
+		loader.hidden = true;
+		errorMessage.hidden = false;
 	}
 }
-
-window.addEventListener('scroll', () => {
-	if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
-		getPhotos();
-		console.log('load more');
-	}
-});
 
 getPhotos();
