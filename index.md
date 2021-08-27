@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
+## About me
 
-## My projects
+Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorite language is Javascript. You can see some of my projects here.
+
+### My projects
 
 [quote-generator](./quote-generator/) 
 
