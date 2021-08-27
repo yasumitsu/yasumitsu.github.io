@@ -3,6 +3,6 @@ layout: default
 ---
 
 ## My projects
-[quote-generator](https://yasumitsu.github.io/quote-generator/) 
+[quote-generator](./quote-generator/) 
 
-[yelp-camp](./https://stark-springs-41502.herokuapp.com/)
+[yelp-camp](https://stark-springs-41502.herokuapp.com/)
