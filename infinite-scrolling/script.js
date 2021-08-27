@@ -61,6 +61,7 @@ async function getPhotos() {
 		photosArray = await response.json();
 		window.addEventListener('scroll', () => {
 			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
+				ready = false;
 				getPhotos();
 				console.log('load more');
 			}
