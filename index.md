@@ -1,6 +1,3 @@
----
-layout: default
----
 ## About me
 
 Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorite language is Javascript. You can see some of my projects here.
@@ -10,3 +7,5 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [quote-generator](./quote-generator/)
 
 [yelp-camp](https://stark-springs-41502.herokuapp.com/) 
+
+[infinite-scrolling](./infinite-scrolling)
