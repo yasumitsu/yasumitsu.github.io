@@ -27,11 +27,16 @@ async function getJokes() {
 		data.setup ? (joke = `${data.setup} ... ${data.delivery}`) : (joke = data.joke);
 
 		tellMe(joke);
-		// toggleButton();
+		toggleButton();
+		//turnoaround cuz the ended event on audio is not working
+		setTimeout(() => {
+			toggleButton();
+		}, 15000);
 	} catch (error) {
 		tellMe(error);
 	}
 }
 
 button.addEventListener('click', getJokes);
+
 audioElement.addEventListener('ended', toggleButton);
