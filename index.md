@@ -13,3 +13,5 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [picture-in-picture](./picture-in-picture)
 
 [joke-teller](./joke-teller)
+
+[light-dark-mode](./light-dark-mode)
