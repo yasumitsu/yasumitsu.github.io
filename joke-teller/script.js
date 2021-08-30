@@ -24,13 +24,10 @@ async function getJokes() {
 	try {
 		const response = await fetch(apiUrl);
 		const data = await response.json();
-		if (data.setup) {
-			joke = `${data.setup} ... ${data.delivery}`;
-		} else {
-			joke = data.joke;
-		}
+		data.setup ? (joke = `${data.setup} ... ${data.delivery}`) : (joke = data.joke);
+
 		tellMe(joke);
-		toggleButton();
+		// toggleButton();
 	} catch (error) {
 		tellMe(error);
 	}
