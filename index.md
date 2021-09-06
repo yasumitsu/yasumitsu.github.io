@@ -17,3 +17,11 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [light-dark-mode](./light-dark-mode)
 
 [animated-template](./animated-template)
+
+[animated-navigation](./animated-navigation)
+
+[custom-countdown](./custom-countdown)
+
+[bookmark-keeper](./book-keeper)
+
+[music-player](./music-player)
