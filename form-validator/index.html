@@ -14,13 +14,33 @@
         <form id="form">
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input type="text" name="name" id="name" placeholder="Full Name">
+                <input type="text" name="name" id="name" placeholder="Full Name" required minlength="2" >
             </div>
             <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" name="name" id="name" placeholder="Full Name">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-5555-5555" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
             </div>
+            <div class="form-group">
+                <label for="email">E-mail Address</label>
+                <input type="email" name="email" id="email" placeholder="email@somewhere.com" required>
+            </div>
+            <div class="form-group">
+                <label for="website">Website URL</label>
+                <input type="url" name="website" id="website" placeholder="https://yourwebsite.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a Password (Min. 8 Characters)" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="Please include at least one uppercase letter, one lowercase and one number">
+            </div>
+            <div class="form-group">
+                <label for="password-confirm">Confirm your Password</label>
+                <input type="password" name="password" id="password-confirm" placeholder="Confirm your Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="Please repeat your password">
+            </div>
+            <button type="submit">Register</button>
         </form>
+        <div class="message-container">
+            <h3 id="message">This is just a demo, your data won't be sent anywhere.</h3>
+        </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
