@@ -25,3 +25,5 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [bookmark-keeper](./book-keeper)
 
 [music-player](./music-player)
+
+[video-player](./video-player)
