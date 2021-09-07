@@ -2,7 +2,13 @@
 
 Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorite language is Javascript. You can see some of my projects here.
 
-|My projects|
+### My projects
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 ------------ | ------------- | -------------
 [quote-generator](./quote-generator/) | [yelp-camp](https://stark-springs-41502.herokuapp.com/) | [infinite-scrolling](./infinite-scrolling)
 [picture-in-picture](./picture-in-picture) | [joke-teller](./joke-teller) | [light-dark-mode](./light-dark-mode)
