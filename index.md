@@ -8,3 +8,5 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [picture-in-picture](./picture-in-picture) | [joke-teller](./joke-teller) | [light-dark-mode](./light-dark-mode)
 [animated-template](./animated-template) | [animated-navigation](./animated-navigation) | [custom-countdown](./custom-countdown)
 [bookmark-keeper](./book-keeper) | [music-player](./music-player) | [video-player](./video-player)
+[form-validation](./form-validation) | [rock-paper-spock-game](./spock-rock-game) | [NASA-API-Pictures](./nasa-api-pictures)
+[timer](./timer) | [museum-of-candy](./museum)
