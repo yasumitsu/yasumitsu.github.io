@@ -18,7 +18,7 @@ const root = document.querySelector('#autocomplete');
 root.innerHTML = `<label><strong>Search for a movie</strong></label>
                 <input class="input" />
                 <div class="dropdown">
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu"> 
                         <div class="dropdown-content results">
                          </div>
                     </div>
