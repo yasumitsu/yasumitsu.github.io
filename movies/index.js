@@ -66,8 +66,8 @@ const runComparison = () => {
 	leftSideStats.forEach((leftStat, i) => {
 		const rightStat = rightSideStats[i];
 
-		const leftSideValue = leftStat.dataset.value;
-		const rightSideValue = rightStat.dataset.value;
+		const leftSideValue = parseInt(leftStat.dataset.value);
+		const rightSideValue = parseInt(rightStat.dataset.value);
 
 		rightSideValue > leftSideValue
 			? leftStat.classList.replace('is-primary', 'is-warning')

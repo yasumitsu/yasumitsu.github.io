@@ -9,4 +9,5 @@ Hi, I'm Kenji, this is my personal page. I'm a self taugh programmer, my favorit
 [animated-template](./animated-template) | [animated-navigation](./animated-navigation) | [custom-countdown](./custom-countdown)
 [bookmark-keeper](./book-keeper) | [music-player](./music-player) | [video-player](./video-player)
 [form-validation](./form-validation) | [rock-paper-spock-game](./spock-rock-game) | [NASA-API-Pictures](./nasa-api-pictures)
-[timer](./timer) | [museum-of-candy](./museum)
+[timer](./timer) | [museum-of-candy](./museum) | [math-sprint](./math-sprint-game)
+[calculator](./calculator) | [movie-fight](./movies)
