@@ -14,6 +14,7 @@
 	},
 	"dependencies": {
 		"caporal": "^1.4.0",
-		"chokidar": "^3.5.2"
+		"chokidar": "^3.5.2",
+		"lodash.debounce": "^4.0.8"
 	}
 }
